@@ -1,0 +1,78 @@
+{
+  "physics": {
+    "rmse_decades": 0.019579535350203514,
+    "mean_abs_pct_error_J": 2.0393717288970947,
+    "median_abs_pct_error_J": 1.2644559144973755,
+    "p95_abs_pct_error_J": 5.701086044311523,
+    "curves_non_monotonic": 0,
+    "curves_ideality_below_1_above_0.15V": 0,
+    "curves_violating_physics_pct": 0.0,
+    "n_test_curves": 301
+  },
+  "plain": {
+    "rmse_decades": 0.023630376905202866,
+    "mean_abs_pct_error_J": 1.6158100366592407,
+    "median_abs_pct_error_J": 0.9201198816299438,
+    "p95_abs_pct_error_J": 4.274240016937256,
+    "curves_non_monotonic": 0,
+    "curves_ideality_below_1_above_0.15V": 50,
+    "curves_violating_physics_pct": 16.611295681063122,
+    "n_test_curves": 301
+  },
+  "speed": {
+    "devsim_s_per_device": 1.7,
+    "surrogate_s_per_device": 1.4416482361448167e-06,
+    "speedup_x": 1179205.8266211003,
+    "single_query_ms": 0.1455232750004143,
+    "note": "surrogate_s_per_device is the batched cost (3010 devices per call); single_query_ms is one device per call"
+  },
+  "data_efficiency": {
+    "train_size": [
+      100,
+      200,
+      400,
+      800,
+      1399
+    ],
+    "physics": [
+      0.0645938366651535,
+      0.04295424371957779,
+      0.03168978914618492,
+      0.021570270881056786,
+      0.022213345393538475
+    ],
+    "plain": [
+      0.05344120413064957,
+      0.041039157658815384,
+      0.030382148921489716,
+      0.015269099734723568,
+      0.019512299448251724
+    ],
+    "physics_violation_pct": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "plain_violation_pct": [
+      26.910299003322258,
+      21.262458471760798,
+      26.245847176079735,
+      17.940199335548172,
+      20.930232558139537
+    ]
+  },
+  "ideality_check": {
+    "physics": {
+      "min_ideality_pred_above_0.15V": 1.0000035762786865,
+      "pct_points_n_below_0.99": 0.0,
+      "single_query_ms": 0.1455232750004143
+    },
+    "plain": {
+      "min_ideality_pred_above_0.15V": 0.9570847749710083,
+      "pct_points_n_below_0.99": 0.17889087656529518,
+      "single_query_ms": 0.09728619999805233
+    }
+  }
+}

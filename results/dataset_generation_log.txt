@@ -1,0 +1,3 @@
+Simulated 2000 devices in 27.0 min (0.81 s/device with 2 workers)
+Converged: 1999   Failed: 1
+Saved -> data/diode_iv_dataset.csv

@@ -1,0 +1,10 @@
+{
+  "n_targets": 20,
+  "devsim_verified_rmse_decades_median": 0.007447249436217619,
+  "devsim_verified_mean_abs_pct_error_J_median": 1.7295795220990007,
+  "targets_matched_within_0.05_dec": 19,
+  "median_abs_error_log10_doping_lightly_doped_side": 0.054395506103515956,
+  "median_abs_error_log10_doping_heavily_doped_side": 0.17001419720458877,
+  "median_abs_error_log10_tau": 0.02999686936950674,
+  "median_abs_error_length_um": 0.5737844995269779
+}
